@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dbms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DBMS">
+        <activity
+            android:name=".recManPatInfo"
+            android:exported="true" />
+        <activity
+            android:name=".receptMainPage"
+            android:exported="true" />
+        <activity
+            android:name=".employeeRegister"
+            android:exported="true" />
+        <activity
+            android:name=".dentHygMainPage"
+            android:exported="true" />
+        <activity
+            android:name=".branchManActivity"
+            android:exported="true" />
+        <activity
+            android:name=".employeeLogin"
+            android:exported="true" />
+        <activity
+            android:name=".patAppRecords"
+            android:exported="true" />
+        <activity
+            android:name=".patientMainPage"
+            android:exported="true" />
+        <activity
+            android:name=".patientRegister"
+            android:exported="true" />
+        <activity
+            android:name=".patientLogin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
